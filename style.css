@@ -1,0 +1,247 @@
+/*------------------- Nav Bar CSS -------------------*/
+* {
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 82px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 15px 15px;
+}
+
+.navbar-custom {
+    color: #1A44DB;
+    margin-left: 8%;
+    width: 152px;
+    height: 42px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav {
+    margin-right: 10%;
+}
+
+.nav-item .btn {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #282828;
+    display: flex;
+}
+
+.navbar-nav {
+    margin-left: 1%;
+}
+
+.nav-link {
+    color: #282828;
+    margin-top: auto;
+}
+
+.nav-link.active {
+    color: #1A44DB;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn {
+    height: 38px;
+    width: 150px;
+    background: #1A44DB;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 21px;
+    border: none;
+    margin-right: 7em;
+}
+
+.navbar-brand a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.blank {
+    height: 2000px;
+    background-color: white;
+}
+
+/*------------------- Nav Bar CSS END -----------------*/
+
+
+/*------------------- Hero Section CSS Start -----------------*/
+
+
+.hero {
+    height: 793px;
+    background-color: black;
+    top: 48px;
+    z-index: 1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+}
+
+.hero-txt {
+    color: white;
+    margin-left: 8%;
+}
+
+#hero-h2 {
+    padding-top: 18%;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+#hero-h1 {
+    font-size: 72px;
+    line-height: 84px;
+}
+
+#hero-p {
+    padding-top: 15px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.hero-select {
+    margin-top: 4%;
+    margin-left: 8%;
+}
+
+.select-course {
+    position: relative;
+    width: 15em;
+    height: 2em;
+    line-height: 3;
+    overflow: hidden;
+    border-radius: .25em;
+    padding-bottom:10px;
+}
+
+.hero-btn {
+    position: relative;
+    display: block;
+    width: 30em;
+    border-radius: 5em;
+    margin-top: 1%;
+    margin-left: .1%;
+    line-height: 2;
+    background-color: transparent;
+    border-color: #1A44DB;
+    color: white;
+}
+
+/*------------------- Hero Section CSS END -----------------*/
+
+/*------------------- After-hero-section CSS Start -----------------*/
+
+.after-hero-section {
+    height: 218px;
+    background-color: #F7F7F7;
+    position: relative;
+}
+
+.after-hero-txt {
+    color: #282828;
+    padding-top: 1.5em;
+    align-content: center;
+}
+
+.after-hero-para {
+    padding-left: 8em;
+    padding-right: 8em;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #282828;
+}
+
+/*------------------- After-hero-section CSS END -----------------*/
+
+/*------------------- IELTS Training Center CSS Start -----------------*/
+.ielts-training-section {
+    float: left;
+    padding-top: 2em;
+    align-content: center;
+    height: 364px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    background-color: white;
+}
+
+.bold-head {
+    font-weight: bold;
+}
+
+.training-centers-section {
+    font-weight: 300;
+    padding-top: 0em;
+}
+
+.region-rectangle {
+    width: 100px;
+    height: 100px;
+    margin-bottom: .8em;
+    background: #FFFFFF;
+    border: 1.5px solid #1A44DB;
+    box-sizing: border-box;
+    box-shadow: 6px 4px 5px 4px #1A44DB;
+    border-radius: 28px;
+}
+
+.box-region{
+    margin-top: 5em;
+    margin-left: 0em;
+    margin-right: 8em;
+    margin-bottom: 3em;
+}
+
+.region-rectangle-txt {
+    float: left;
+    margin-left: 7em;
+}
+
+.region-txt {
+    position: relative;
+    display: table-cell;
+    vertical-align: bottom;
+    line-height: 16em;
+    padding-left: 2em;
+
+}
+
+/*------------------- IELTS Training Center CSS END -----------------*/
+
+/*------------------- PTE Training Center CSS Start -----------------*/
+
+.pte-training-section {
+    float: left;
+    padding-top: 3em;
+    align-content: center;
+    background-color: #F7F7F7;
+    height: 364px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+}
+
+.training-centers-section {
+    font-weight: 300;
+    padding-top: 0em;
+}
+
+/*------------------- PTE Training Center CSS END -----------------*/
